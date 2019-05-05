@@ -1,0 +1,70 @@
+:host {
+    text-align: center;
+    color:#fff;
+    width:80%;
+    margin:0 auto;
+    max-width:960px;
+    display: block;
+}
+
+.logo img {
+    margin:30px auto;
+    max-width: 100px;
+}
+
+.panel-group {
+    margin-top:50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.panel:first-child {
+    text-align: right;
+}
+
+.panel img {
+    max-width:150px;
+}
+
+.panel ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: left;
+}
+
+.panel h2, h3 {
+    margin-top:20px;
+}
+
+.panel li {
+    margin:20px 0;
+    padding:10px 10px 10px 80px;
+    background-size: 20%;
+}
+
+li.decentralized {
+    background:url(../images/002-decentralized.png) no-repeat;
+}
+
+li.energy {
+    background:url(../images/001-eco.png) no-repeat;
+}
+
+li.features {
+    background:url(../images/003-innovation.png) no-repeat;
+}
+
+h1.title {
+    margin-top:50px;
+}
+
+.credits {
+    margin:100px 0 30px;
+    font-size:11px;
+}
+
+a {
+    color:#fff;
+}
